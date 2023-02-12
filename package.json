@@ -1,0 +1,51 @@
+{
+  "name": "stefanocislaghi.com",
+  "version": "1.0.0",
+  "description": "stefanocislaghi.com website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaticMuch/stefanocislaghi.com.git"
+  },
+  "dependencies": {
+    "@next/font": "13.1.2",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "apple-music-jwt": "0.2.0",
+    "classnames": "2.3.2",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.2",
+    "jose": "4.11.2",
+    "next": "13.1.6",
+    "next-themes": "0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "2.0.3",
+    "typescript": "4.9.4",
+    "use-delayed-render": "0.0.7"
+  },
+  "keywords": [
+    "website",
+    "personal website",
+    "stefano cislaghi"
+  ],
+  "author": "Stefano Cislaghi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LunaticMuch/stefanocislaghi.com/issues"
+  },
+  "homepage": "https://github.com/LunaticMuch/stefanocislaghi.com#readme",
+  "devDependencies": {
+    "autoprefixer": "10.4.13",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.2.6"
+  },
+  "packageManager": "pnpm@7.27.0"
+}
