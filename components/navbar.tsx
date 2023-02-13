@@ -59,7 +59,7 @@ export default function Navbar() {
                 </svg>
               </a>
               <a
-                href="https://uk.linkedin.com/stefanocislaghi"
+                href="https://uk.linkedin.com/in/stefanocislaghi"
                 target={"_blank"}
                 rel={"noopener noreferrer"}
               >

@@ -49,7 +49,7 @@ export default function Footer() {
 
             <a
               className="no-underline cursor-pointer hover:underline"
-              href="https://uk.linkedin.com/stefanocislaghi"
+              href="https://uk.linkedin.com/in/stefanocislaghi"
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
