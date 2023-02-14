@@ -76,7 +76,14 @@ export default function Footer() {
           </div>
           <RecentlyPlayed />
           <div className="flex flex-col items-center p-4 text-sm md:items-start">
-            <div>stefanocislaghi.com {currentVersion}</div>
+            <a
+              className="no-underline cursor-pointer hover:underline"
+              href="https://https://github.com/LunaticMuch/stefanocislaghi.com"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              stefanocislaghi.com {currentVersion}
+            </a>
             <div>with NextJS {nextVersion}</div>
             <div>and Tailwind {tailwindVersion}</div>
           </div>
