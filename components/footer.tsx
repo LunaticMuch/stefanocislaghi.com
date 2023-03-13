@@ -58,6 +58,15 @@ export default function Footer() {
 
             <a
               className="no-underline cursor-pointer hover:underline"
+              href="https://discuss.systems/users/stefano"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              Mastodon
+            </a>
+
+            <a
+              className="no-underline cursor-pointer hover:underline"
               href="https://www.npmjs.com/~stefanocislaghi"
               target={"_blank"}
               rel={"noopener noreferrer"}
