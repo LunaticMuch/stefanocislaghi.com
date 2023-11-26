@@ -22,7 +22,8 @@ const getRecentlyPlayed = async () => {
         .setIssuedAt()
         .setIssuer(teamID || 'no-team-it')
         .sign(privateKey);
-
+    console.log(`Bearer ${token}`)
+    console.log(`Music-User-Token: ${musicToken}`)
     return fetch(APPLE_MUSIC_ENDPOINT, {
         method: "GET",
         headers: {
@@ -34,8 +35,6 @@ const getRecentlyPlayed = async () => {
 
 export async function GET() {
     const response = await getRecentlyPlayed();
-    console.log(response.status)
-    console.log(response.body)
     if (response.status === 204 || response.status > 400) {
         return new Response(JSON.stringify({ isPlaying: false }), {
             status: 200,
