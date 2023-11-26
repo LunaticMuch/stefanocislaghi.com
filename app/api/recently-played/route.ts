@@ -1,4 +1,4 @@
-export const runtime = process.env.NODE_ENV === 'development' ? 'nodejs' : 'edge'
+export const runtime = process.env.NODE_ENV === 'development' ? 'edge' : 'edge'
 export const dynamic = 'force-dynamic'
 
 import { SignJWT, importPKCS8 } from "jose";
@@ -34,7 +34,8 @@ const getRecentlyPlayed = async () => {
 
 export async function GET() {
     const response = await getRecentlyPlayed();
-
+    console.log(response.status)
+    console.log(response.body)
     if (response.status === 204 || response.status > 400) {
         return new Response(JSON.stringify({ isPlaying: false }), {
             status: 200,
