@@ -1,7 +1,8 @@
+'use client'
 import { useState } from "react";
 import Link from 'next/link'
-import Beta from "./beta";
-import ThemeSwitcher from "./themeswitcher";
+import Beta from "./Beta";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function MobileMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

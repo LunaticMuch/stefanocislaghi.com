@@ -1,8 +1,8 @@
 import { Open_Sans } from "next/font/google";
 import React, { ReactNode } from "react";
 
-import Footer from "./footer";
-import Navbar from "./navbar";
+import Footer from "./Footer";
+import Navbar from "./NarBar";
 
 const lato = Open_Sans({
   subsets: ["latin"],

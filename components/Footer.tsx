@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Package from "../package.json";
-import RecentlyPlayed from "./recentlyPlayed";
+import RecentlyPlayed from "./RecentlyPlayed";
 
 export default function Footer() {
   const currentVersion = " v" + Package.version;

@@ -1,28 +1,8 @@
-import NextLink from "next/link";
-import { useRouter } from "next/router";
-import cn from "classnames";
-import ThemeSwitcher from "./themeswitcher";
-import MobileMenu from "./mobilemenu";
-import Beta from "./beta";
-
-type NavItem = {
-  href: string;
-  text: string;
-};
-
-function NavItem({ href, text }: NavItem) {
-  const router = useRouter();
-  const isActive = router.asPath === href;
-
-  return (
-    <NextLink
-      href={href}
-      className={cn(isActive ? "font-bold " : "font-normal")}
-    >
-      <span className="px-3">{text}</span>
-    </NextLink>
-  );
-}
+'use client'
+import ThemeSwitcher from "./ThemeSwitcher";
+import MobileMenu from "./MobileMenu";
+import Beta from "./Beta";
+import NavItem from "./NavBarItem";
 
 export default function Navbar() {
   return (
