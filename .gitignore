@@ -107,3 +107,6 @@ dist
 .vercel
 .env*
 utils
+.env*.local
+
+.DS_Store
