@@ -28,6 +28,7 @@ export const metadata: Metadata = {
         type: "image/jpeg",
       },
     ],
+    type:"profile",
     siteName:
       "Stefano Cislaghi | Engineering Visionary, Enterprise Architect & Open Innovation Advocate",
   },
