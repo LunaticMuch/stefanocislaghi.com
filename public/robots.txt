@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://stefanocislaghi.com/
+
+# Sitemaps
+Sitemap: https://stefanocislaghi.com/sitemap.xml
