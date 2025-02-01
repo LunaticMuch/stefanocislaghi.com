@@ -1,3 +1,4 @@
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 import { PageConfig } from "next/types";
 import { graphql } from "@octokit/graphql";
 import { contributionParser } from "@/helpers/contributions";
