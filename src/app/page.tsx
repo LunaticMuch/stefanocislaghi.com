@@ -2,6 +2,7 @@ import Contacts from "@/components/Contacts";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Headline from "@/components/Headline";
+import Contributions from "@/components/Contributions";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function Home() {
             <Headline />
             <Experience />
             <Contacts />
+            <Contributions />
             <Footer />
           </div>
         </div>

@@ -14,9 +14,11 @@
     "url": "git+https://github.com/LunaticMuch/stefanocislaghi.com.git"
   },
   "dependencies": {
+    "@octokit/graphql": "8.1.2",
     "@tailwindcss/postcss": "4.0.0",
     "apple-music-jwt": "0.2.0",
     "classnames": "2.5.1",
+    "date-fns": "4.1.0",
     "jose": "5.9.6",
     "next": "15.1.6",
     "next-themes": "0.4.4",
