@@ -1,14 +1,17 @@
 "use client";
 import useSWR from "swr";
 import Link from "next/link";
+import { format } from 'timeago.js';
+import type { IContribution } from "helpers/contributions";
+
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Contributions() {
-  const { data } = useSWR("api/contributions", fetcher);
+  const { data } = useSWR<IContribution[]>("api/contributions", fetcher);
   return (
     <>
       <div className="">
-        <p className="font-bold uppercase">Contributions</p>
+        <p className="font-bold uppercase">Github Contributions</p>
         <ul className="grid gap-1">
           {data?.map((contribution, key) => (
             <li className="flex justify-between" key={key}>
@@ -46,7 +49,7 @@ export default function Contributions() {
                   </svg>
                 )}
               </Link>
-              <div>{contribution.date}</div>
+              <div>{format(contribution.dateTime)}</div>
             </li>
           ))}
         </ul>

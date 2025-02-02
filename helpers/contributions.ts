@@ -1,7 +1,7 @@
 // Description: This file contains the helper functions for contributions.
 import { format } from "date-fns";
 
-interface IContribution  {
+export interface IContribution  {
     date: Date;
     dateTime: Date;
     url: string

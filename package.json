@@ -25,6 +25,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "swr": "2.3.0",
+    "timeago.js": "4.0.2",
     "typescript": "5.7.3",
     "use-delayed-render": "0.0.7"
   },
