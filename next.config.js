@@ -2,18 +2,19 @@
 
 module.exports = {
   reactStrictMode: true,
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**.mzstatic.com',
-        port: '',
-      },
-      {
-        protocol: 'https',
-        hostname: '**.itunes-apple.com.akadns.net',
-        port: '',
-      },
-    ],
-  },
+images: {
+     remotePatterns: [
+       {
+         protocol: 'https',
+         hostname: '**.mzstatic.com',
+         port: '',
+       },
+       {
+         protocol: 'https',
+         hostname: '**.itunes-apple.com.akadns.net',
+         port: '',
+       },
+     ],
+     qualities: [75, 100],
+   },
 };

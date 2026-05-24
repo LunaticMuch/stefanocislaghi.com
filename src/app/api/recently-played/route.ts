@@ -1,8 +1,4 @@
-import { PageConfig } from "next/types";
-
-export const config: PageConfig = {
-    runtime: 'nodejs'
-}
+export const runtime = "nodejs";
 
 export const dynamic = "force-dynamic";
 
