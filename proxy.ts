@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 // Runs on every page
-export function middleware (request: NextRequest) {
+export function proxy (request: NextRequest) {
   if (request.nextUrl.pathname === '/.well-known/webfinger') {
 
     const mastodon = {

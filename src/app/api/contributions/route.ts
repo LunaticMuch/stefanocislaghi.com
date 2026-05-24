@@ -1,11 +1,8 @@
-/* eslint-disable  @typescript-eslint/no-explicit-any */
-import { PageConfig } from "next/types";
+
 import { graphql } from "@octokit/graphql";
 import { contributionParser } from "@/helpers/contributions";
 
-export const config: PageConfig = {
-  runtime: "nodejs",
-};
+export const runtime = "nodejs";
 
 export const dynamic = "force-dynamic";
 
